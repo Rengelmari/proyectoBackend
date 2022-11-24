@@ -1,0 +1,42 @@
+[
+    {
+        "id":1, 
+        "titulo":"Aros Luna", 
+        "precio":2500, 
+        "img": "/img/landscape3.png", 
+        "descripcion":"moon & mountain earrings", 
+        "stock":5 },
+    {
+        "id":2, 
+        "titulo":"Aros Sol", 
+        "precio":3000, 
+        "img": "/img/landscape2.png", 
+        "descripcion":"sun & mountain earrings", 
+        "stock":8 
+    },
+    {
+        "id":4, 
+        "titulo":"Aros Desert", 
+        "precio":4000, 
+        "img": "/img/landscape6.png", 
+        "descripcion":"sun & desert earrings", 
+        "stock":10 
+    },
+    {
+        "id":5, 
+        "titulo":"Aros Mountain", 
+        "precio":4000, 
+        "img": "/img/landscape4.png", 
+        "descripcion":"mountain & river earrings", 
+        "stock":6 
+    },
+    {
+        "id":6, 
+        "titulo":"Aros Ocean", 
+        "precio":4000, 
+        "img": "/img/landscape5.png", 
+        "descripcion":"moon & ocean earrings", 
+        "stock":7 
+    }
+
+]
