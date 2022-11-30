@@ -7,9 +7,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "type": "module"
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rengelmari/proyectoBackend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rengelmari/proyectoBackend/issues"
+  },
+  "homepage": "https://github.com/Rengelmari/proyectoBackend#readme",
   "description": ""
 }

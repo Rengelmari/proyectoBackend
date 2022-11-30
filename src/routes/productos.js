@@ -1,17 +1,19 @@
 import express from 'express';
-import { Contenedor } from '../contenedor/contenedorFs.js';
+import { Contenedor } from '../contenedor/contenedorFs';
 const rutaProductos = express.Router();
+/* const Contenedor = require('./contenedor/contenedorFs.js'); */
 
-const productos = new Contenedor('src/db/productos.txt');
 
-/* const privilegio = (peticion, respuesta, next) => {
+const productos = new Contenedor('./src/db/productos.txt');
+
+const privilegio = (peticion, respuesta, next) => {
   const administrador = peticion.headers.administrador;
   if (administrador === 'true') {
     next();
   } else {
     respuesta.status(401).send({ error : -1, descripcion: `ruta ${peticion.url} no autorizada` });
   }
-}; */
+};
 
 //Endpoints***
 
@@ -55,4 +57,4 @@ rutaProductos.delete('/:id', privilegio, async (peticion, respuesta) => {
   }
 });
 
-export { rutaProducto };
+export { rutaProductos };

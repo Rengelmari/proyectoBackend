@@ -1,4 +1,5 @@
-const fs = require("fs");
+import * as fs from 'fs';
+/* const fs = require('fs'); */
 
 class Contenedor {
     constructor(nombre) {
