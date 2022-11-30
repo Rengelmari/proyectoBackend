@@ -3,7 +3,7 @@ const express = require ('express');
 const Contenedor = require('./contenedor/contenedorFs.js'); */
 /* import express from 'express'; */
 /* const rutaProductos = require('./routes/productos'); */
-import { rutaProductos } from './routes/productos';
+import { rutaProductos } from './routes/productos.js';
 /* import { rutaCarrito } from './routes/carrito.js'; */
 
 const app = express();
